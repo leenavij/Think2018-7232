@@ -112,7 +112,7 @@ spec:
     spec:
       containers:
       - name: notification
-        image: @reggggggggistryHostAndRepo@/notification:latest
+        image: @registryHostAndRepo@/notification:latest
         env:
           - name: MQ_ID
             valueFrom:
